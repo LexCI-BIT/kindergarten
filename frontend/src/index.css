@@ -1,0 +1,55 @@
+:root {
+  --eclipse-black: #1B1B1B;
+  --moonlight-gray: #A8A9AD;
+  --astral-blue: #24476C;
+  --midnight-navy: #0A122A;
+  --stardust-white: #E6E8E6;
+  --midnight-blue: #122C4F;
+  --pearl-perfect: #FBF9E4;
+  --noir: #000000;
+  --ocean-blue: #5B88B2;
+  --primary-blue: var(--ocean-blue);
+  --primary-dark: var(--midnight-navy);
+  --secondary-bg: var(--stardust-white);
+  --card-bg: #ffffff;
+  --text-primary: var(--eclipse-black);
+  --text-secondary: var(--astral-blue);
+  --success-green: #2ecc71;
+  --danger-red: #ea5455;
+
+  --sidebar-width: 260px;
+  --header-height: 80px;
+  --font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  background-color: var(--secondary-bg);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

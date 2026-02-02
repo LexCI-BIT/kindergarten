@@ -1,0 +1,20 @@
+{
+    "name": "kindergarden-backend",
+    "version": "1.0.0",
+    "description": "Backend for Kindergarden Management System using Express and Supabase",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "dependencies": {
+        "@supabase/supabase-js": "^2.47.10",
+        "bcryptjs": "^3.0.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9"
+    }
+}
